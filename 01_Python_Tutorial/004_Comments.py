@@ -18,5 +18,7 @@ written in
 more than just one line
 """
 print("Hello, World!")
+jls_extract_var = "Diego"
+print(jls_extract_var)
 
 
