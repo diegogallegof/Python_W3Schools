@@ -10,7 +10,7 @@
 
 ## 3. Contributors Badge
 
-![Your Repository's Stats](https://contrib.rocks/image?repo=PYTHON_W3SCHOOLS)
+![Your Repository's Stats](https://contrib.rocks/image?repo=Python_W3Schools/tree/main/01_Python_Tutorial)
 
 ## 4. Random Joke Generator
 
@@ -22,4 +22,4 @@
 
 ### Repository View Counter - HITS
 
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Tanu-N-Prabhu/Python)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/diegogallegof/Python_W3Schools)
