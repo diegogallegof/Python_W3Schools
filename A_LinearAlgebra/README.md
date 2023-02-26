@@ -10,7 +10,7 @@
 
 ## 3. Contributors Badge
 
-![Your Repository's Stats](https://contrib.rocks/image?repo=Python_W3Schools/tree/main/01_Python_Tutorial)
+![Your Repository's Stats](https://contrib.rocks/image?repo=Python_W3Schools)
 
 ## 4. Random Joke Generator
 
