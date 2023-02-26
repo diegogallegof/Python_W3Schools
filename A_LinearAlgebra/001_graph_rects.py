@@ -10,8 +10,8 @@ y_vals1 = [eq1(x) for x in x_vals]
 y_vals2 = [eq2(x) for x in x_vals]
 
 # Graficar las líneas
-plt.plot(x_vals, y_vals1, label='x-y=7')
-plt.plot(x_vals, y_vals2, label='2x-2y=14')
+plt.plot(x_vals, y_vals1, label='x+y=-7')
+plt.plot(x_vals, y_vals2, label='x+y=-13/5')
 
 # Personalizar el gráfico
 plt.title('Rectas')
