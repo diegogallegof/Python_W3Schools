@@ -12,11 +12,9 @@
 
 <!-- Copy-paste in your Readme.md file -->
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = diegogallegof/Python_W3Schools"/>
+<a href="https://github.com/diegogallegof/Python_W3Schools/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=diegogallegof/Python_W3Schools" />
 </a>
-
-Made with [contributors-img](https://contrib.rocks).
 
 ## 4. Random Joke Generator
 
