@@ -10,7 +10,13 @@
 
 ## 3. Contributors Badge
 
-![Your Repository's Stats](https://contrib.rocks/image?repo=Python_W3Schools)
+<!-- Copy-paste in your Readme.md file -->
+
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = diegogallegof/Python_W3Schools"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
 
 ## 4. Random Joke Generator
 
