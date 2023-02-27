@@ -121,4 +121,4 @@ print("banana" in my_frozenset)  # Output: True
 #Return the difference of two or more sets as a new set.
 #(i.e. all elements that are in this set but not the others.)
 print(my_frozenset.difference(my_set2))
-
+# frozenset({'cherry'})
