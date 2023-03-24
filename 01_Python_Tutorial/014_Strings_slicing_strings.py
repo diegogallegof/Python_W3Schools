@@ -44,7 +44,7 @@ To, but not included: "d" in "World!" (position -2):
 b = "Hello, World!"
 print(b[-5:-2])
 
-b = "0123456789"
+b = "ab0123456789"
 print(b[-5:-2])
 print(b[2:5])
 print(b[-5:])
