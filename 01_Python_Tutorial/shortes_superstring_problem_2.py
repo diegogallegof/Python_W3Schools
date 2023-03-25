@@ -100,6 +100,7 @@ if __name__ == "__main__":
     n = len(arr)
     #arr = ["catgc", "ctaagt", "gcta", "ttca", "atgcatc"]
 	# Function Call
+    # other 
     print("The Shortest Superstring is", findShortestSuperstring(arr, n))
 
 # this code is contributed by bhardwajji
