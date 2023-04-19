@@ -48,3 +48,17 @@
 # translate()	Returns a translated string
 # upper()	Converts a string into upper case
 # zfill()	Fills the string with a specified number of 0 values at the beginning
+
+my_string = "python"
+x = 0
+for i in my_string:
+  x += 1
+  print(my_string[0:x])
+  
+for i in my_string:
+  x = x-1
+  print(my_string[0:x])
+
+for i in my_string:
+  x -= 1
+  print(my_string[x:])
