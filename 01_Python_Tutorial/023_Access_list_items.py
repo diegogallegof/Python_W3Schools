@@ -34,3 +34,13 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[5])
 print(thislist[2:5]) # ['cherry', 'orange', 'kiwi']
 # Note: The search will start at index 2 (included) and end at index 5 (not included).
+# Remember that the first item has index 0.
+
+# By leaving out the start value, the range will start at the first item:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# This example returns the items from the beginning to, but NOT including, "kiwi":
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
