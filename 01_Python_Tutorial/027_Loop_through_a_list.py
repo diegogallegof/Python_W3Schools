@@ -40,3 +40,15 @@ i = 0
 while i < len(thislist):
   print(thislist[i])
   i = i + 1
+
+# Learn more about while loops in our Python While Loops Chapter.
+
+# Looping Using List Comprehension
+# List Comprehension offers the shortest syntax for looping through lists:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# A short hand for loop that will print all items in a list:
+
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
