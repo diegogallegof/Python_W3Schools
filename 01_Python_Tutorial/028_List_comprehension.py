@@ -50,3 +50,11 @@ newlist = [x for x in fruits if x != "apple"]
 
 newlist = [x for x in fruits]
 print(newlist)
+# Iterable
+# The iterable can be any iterable object, like a list, tuple, set etc.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# You can use the range() function to create an iterable:
+
+newlist = [x for x in range(10)]
