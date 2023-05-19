@@ -58,3 +58,11 @@ print(newlist)
 # You can use the range() function to create an iterable:
 
 newlist = [x for x in range(10)]
+
+# Same example, but with a condition:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Accept only numbers lower than 5:
+
+newlist = [x for x in range(10) if x < 5]
