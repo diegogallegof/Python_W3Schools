@@ -74,3 +74,10 @@ newlist = [x for x in range(10) if x < 5]
 # Set the values in the new list to upper case:
 
 newlist = [x.upper() for x in fruits]
+# You can set the outcome to whatever you like:
+# -----------------------------------
+# Example
+# -----------------------------------
+# Set all values in the new list to 'hello':
+
+newlist = ['hello' for x in fruits]
