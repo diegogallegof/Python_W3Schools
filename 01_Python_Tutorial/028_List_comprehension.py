@@ -88,3 +88,6 @@ newlist = ['hello' for x in fruits]
 # Return "orange" instead of "banana":
 
 newlist = [x if x != "banana" else "orange" for x in fruits]
+The expression in the example above says:
+
+# "Return the item if it is not banana, if it is banana return orange".
