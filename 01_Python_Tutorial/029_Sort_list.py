@@ -18,8 +18,9 @@ thislist.sort()
 print(thislist)
 # Sort Descending
 # To sort descending, use the keyword argument reverse = True:
-
+# ----------------------------------------------------------------
 # Example
+# ----------------------------------------------------------------
 # Sort the list descending:
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
