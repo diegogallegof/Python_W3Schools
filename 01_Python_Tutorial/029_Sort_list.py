@@ -50,3 +50,14 @@ def myfunc(n):
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = myfunc)
 print(thislist)
+
+# Case Insensitive Sort
+# By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+# ------------------------------------
+# Example
+# ------------------------------------
+# Case sensitive sorting can give an unexpected result:
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
