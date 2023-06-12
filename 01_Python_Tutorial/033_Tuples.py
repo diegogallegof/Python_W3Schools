@@ -47,11 +47,26 @@ print(thistuple)
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 
-Tuple Length
-To determine how many items a tuple has, use the len() function:
+# Create Tuple With One Item
+# To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+# ------------------------------
+# Example
+# -------------------------------
+# One item tuple, remember the comma:
 
-Example
-Print the number of items in the tuple:
+thistuple = ("apple",)
+print(type(thistuple))
 
-thistuple = ("apple", "banana", "cherry")
-print(len(thistuple))
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+# Tuple Items - Data Types
+# Tuple items can be of any data type:
+# ---------------------------
+# Example
+# ---------------------------
+# String, int and boolean data types:
+
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
