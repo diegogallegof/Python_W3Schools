@@ -8,3 +8,4 @@
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[1])
 # Note: The first item has index 0.
+#
