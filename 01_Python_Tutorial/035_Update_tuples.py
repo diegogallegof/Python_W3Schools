@@ -44,3 +44,18 @@ y = ("orange",)
 thistuple += y
 
 print(thistuple)
+
+# Note: When creating a tuple with only one item, remember to include a comma after the item, otherwise it will not be identified as a tuple.
+# Remove Items
+# Note: You cannot remove items in a tuple.
+
+# Tuples are unchangeable, so you cannot remove items from it, but you can use the same workaround as we used for changing and adding tuple items:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Convert the tuple into a list, remove "apple", and convert it back into a tuple:
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.remove("apple")
+thistuple = tuple(y)
