@@ -50,6 +50,16 @@ print(thisset)
 # ----------------------------------------------------------------
 # True and 1 is considered the same value:
 
-thisset = {"apple", "banana", "cherry", True, 1, 2}
+thisset1 = {"apple", "bananax", "cherry", True, 1, 2}
 
-print(thisset)
+print(thisset1)
+
+# Get the Length of a Set
+# To determine how many items a set has, use the len() function.
+
+# Example
+# Get the number of items in a set:
+
+thisset = {"apple", "banana", "cherry"}
+
+print(len(thisset))
