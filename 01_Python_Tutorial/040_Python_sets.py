@@ -94,3 +94,13 @@ set1 = {"abc", 34, True, 40, "male"}
 
 myset = {"apple", "banana", "cherry"}
 print(type(myset))
+
+# The set() Constructor
+# It is also possible to use the set() constructor to make a set.
+# ------------------------------------------------
+# Example
+# ------------------------------------------------
+# Using the set() constructor to make a set:
+
+thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+print(thisset)
