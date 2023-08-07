@@ -112,7 +112,7 @@ print(thisset)
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
-# *Set items are unchangeable, but you can remove items and add new items.
+# *Set items are unchangeable, but you can remove items and add new items .
 
 # **As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
 
