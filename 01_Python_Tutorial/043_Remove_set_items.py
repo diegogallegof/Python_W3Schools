@@ -38,3 +38,15 @@ x = thisset.pop()
 print(x)
 
 print(thisset)
+
+# Note: Sets are unordered, so when using the pop() method, you do not know which item that gets removed.
+# ------------------------------------------------------------------------------------------------
+# Example
+# ------------------------------------------------------------------------------------------------
+# The clear() method empties the set:
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.clear()
+
+print(thisset)
