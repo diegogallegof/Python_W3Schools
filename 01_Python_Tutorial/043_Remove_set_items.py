@@ -50,3 +50,13 @@ thisset = {"apple", "banana", "cherry"}
 thisset.clear()
 
 print(thisset)
+# ------------------------------------------------
+# Example
+# ------------------------------------------------
+# The del keyword will delete the set completely:
+
+thisset = {"apple", "banana", "cherry"}
+
+del thisset
+
+print(thisset)
