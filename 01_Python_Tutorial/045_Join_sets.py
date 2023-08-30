@@ -51,3 +51,10 @@ y = {"google", "microsoft", "apple"}
 z = x.intersection(y)
 
 print(z)
+
+# --------------------------------------------------------
+# Example
+# --------------------------------------------------------
+
+xd = {"apple", "banana", "cherry"}
+yd = {"google", "microsoft", "apple"}
