@@ -52,9 +52,17 @@ z = x.intersection(y)
 
 print(z)
 
+# Keep All, But NOT the Duplicates
+# The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
 # --------------------------------------------------------
 # Example
 # --------------------------------------------------------
+# Keep the items that are not present in both sets:
 
-xd = {"apple", "banana", "cherry"}
-yd = {"google", "microsoft", "apple"}
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.symmetric_difference_update(y)
+
+print(x)
+
