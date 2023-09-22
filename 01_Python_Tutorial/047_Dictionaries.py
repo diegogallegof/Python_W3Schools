@@ -88,3 +88,19 @@ thisdict = {
   "year": 1964,
   "colors": ["red", "white", "blue"]
 }
+
+# type()
+# From Python's perspective, dictionaries are defined as objects with the data type 'dict':
+
+# <class 'dict'>
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Print the data type of a dictionary:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
