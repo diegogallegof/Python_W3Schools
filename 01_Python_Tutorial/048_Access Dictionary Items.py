@@ -18,3 +18,12 @@ x = thisdict["model"]
 # Get the value of the "model" key:
 
 x = thisdict.get("model")
+
+# Get Keys
+# The keys() method will return a list of all the keys in the dictionary.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Get a list of the keys:
+
+x = thisdict.keys()
