@@ -94,3 +94,12 @@ print(x) #before the change
 car["color"] = "red"
 
 print(x) #after the change
+
+# Get Values
+# The values() method will return a list of all the values in the dictionary.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Get a list of the values:
+
+x = thisdict.values()
