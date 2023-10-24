@@ -141,3 +141,12 @@ print(x) #before the change
 car["color"] = "red"
 
 print(x) #after the change
+
+# Get Items
+# The items() method will return each item in a dictionary, as tuples in a list.
+# -----------------------------------------------
+# Example
+# -----------------------------------------------
+# Get a list of the key:value pairs
+
+x = thisdict.items()
