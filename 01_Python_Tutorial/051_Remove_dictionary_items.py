@@ -48,3 +48,15 @@ thisdict = {
 }
 del thisdict
 print(thisdict) #this will cause an error because "thisdict" no longer exists.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# The clear() method empties the dictionary:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.clear()
+print(thisdict)
