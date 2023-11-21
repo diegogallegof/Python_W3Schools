@@ -14,5 +14,11 @@ for x in thisdict:
 # ----------------------------------------------------------------
 # Print all values in the dictionary, one by one:
 
-for x in thisdict:DDDFF
+for x in thisdict:
   print(thisdict[x])
+
+# Example
+# You can also use the values() method to return values of a dictionary:
+
+for x in thisdict.values():
+  print(x)
