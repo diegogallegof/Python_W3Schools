@@ -15,10 +15,11 @@ thisdict = {
 mydict = thisdict.copy()
 print(mydict)
 
-Another way to make a copy is to use the built-in function dict().
-
-Example
-Make a copy of a dictionary with the dict() function:
+# Another way to make a copy is to use the built-in function dict().
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Make a copy of a dictionary with the dict() function:
 
 thisdict = {
   "brand": "Ford",
