@@ -44,3 +44,11 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
+
+#Access Items in Nested Dictionaries
+#To access items from a nested dictionary, you use the name of the dictionaries, starting with the outer dictionary:
+
+# Example
+# Print the name of child 2:
+
+print(myfamily["child2"]["name"])
