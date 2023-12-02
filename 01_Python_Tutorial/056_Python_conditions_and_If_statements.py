@@ -42,3 +42,17 @@ b = 200
 if b > a:
   print("b is greater than a")
 
+#   In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that 200 is greater than 33, and so we print to screen that "b is greater than a".
+
+# Indentation
+# Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# If statement, without indentation (will raise an error):
+
+a = 33
+b = 200
+if b > a:
+print("b is greater than a") # you will get an error
+
