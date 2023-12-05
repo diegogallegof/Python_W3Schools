@@ -97,3 +97,11 @@ if b > a:
 else:
   print("b is not greater than a")
 
+# Short Hand If
+# If you have only one statement to execute, you can put it on the same line as the if statement.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# One line if statement:
+
+if a > b: print("a is greater than b")
