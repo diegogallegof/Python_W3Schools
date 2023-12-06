@@ -54,7 +54,7 @@ if b > a:
 a = 33
 b = 200
 if b > a:
-print("b is greater than a") # you will get an error
+  print("b is greater than a") # you will get an error
 
 # Elif
 # The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
@@ -106,12 +106,25 @@ else:
 
 if a > b: print("a is greater than b")
 
-Short Hand If ... Else
-If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
-
-Example
-One line if else statement:
+# Short Hand If ... Else
+# If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# One line if else statement:
 
 a = 2
 b = 330
 print("A") if a > b else print("B")
+
+# This technique is known as Ternary Operators, or Conditional Expressions.
+
+# You can also have multiple else statements on the same line:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# One line if else statement, with 3 conditions:
+
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
