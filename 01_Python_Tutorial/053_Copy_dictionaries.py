@@ -28,3 +28,5 @@ thisdict = {
 }
 mydict = dict(thisdict)
 print(mydict)
+# Hey copilot creaete a function for a sum of 2 floats in python
+

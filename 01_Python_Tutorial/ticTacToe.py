@@ -60,3 +60,5 @@ while True:
     elif is_draw():  
         print('The game is a draw!')  
         break
+
+    # create a function for a sum to float numbers
