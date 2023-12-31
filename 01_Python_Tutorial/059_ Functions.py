@@ -60,3 +60,14 @@ def my_function(fname, lname):
   print(fname + " " + lname)
 
 my_function("Emil", "Refsnes")
+
+# If you try to call the function with 1 or 3 arguments, you will get an error:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# This function expects 2 arguments, but gets only 1:
+
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil")
