@@ -206,3 +206,12 @@ def my_function(x):
   print(x)
 
 my_function(x = 3)
+
+# But when adding the , / you will get an error if you try to send a keyword argument:
+# ---------------------------------------------------------------
+# Example
+#----------------------------------------------------------------
+def my_function(x, /):
+  print(x)
+
+my_function(x = 3)
