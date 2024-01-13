@@ -225,3 +225,12 @@ def my_function(*, x):
   print(x)
 
 my_function(x = 3)
+
+# Without the *, you are allowed to use positionale arguments even if the function expects keyword arguments:
+# ---------------------------------------------------------------
+# Example
+# ---------------------------------------------------------------
+def my_function(x):
+  print(x)
+
+my_function(3)
