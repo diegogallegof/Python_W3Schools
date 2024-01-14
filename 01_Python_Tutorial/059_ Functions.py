@@ -234,3 +234,12 @@ def my_function(x):
   print(x)
 
 my_function(3)
+
+# But when adding the *, / you will get an error if you try to send a positional argument:
+# ---------------------------------------------------------------
+# Example
+# ---------------------------------------------------------------
+def my_function(*, x):
+  print(x)
+
+my_function(3)
