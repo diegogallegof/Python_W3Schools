@@ -39,3 +39,14 @@ print(x(5, 6, 2))
 
 def myfunc(n):
   return lambda a : a * n
+
+# Use that function definition to make a function that always doubles the number you send in:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
