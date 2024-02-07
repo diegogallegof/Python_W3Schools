@@ -54,3 +54,9 @@ car3 = "BMW"
 # Get the value of the first array item:
 
 x = cars[0]
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Modify the value of the first array item:
+
+cars[0] = "Toyota"
