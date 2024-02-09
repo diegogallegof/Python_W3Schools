@@ -69,3 +69,16 @@ cars[0] = "Toyota"
 # Return the number of elements in the cars array:
 
 x = len(cars)
+
+# Note: The length of an array is always one more than the highest array index.
+
+
+# Looping Array Elements
+# You can use the for in loop to loop through all the elements of an array.
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Print each item in the cars array:
+
+for x in cars:
+  print(x)
