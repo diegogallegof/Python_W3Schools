@@ -82,3 +82,11 @@ x = len(cars)
 
 for x in cars:
   print(x)
+
+#   Adding Array Elements
+# You can use the append() method to add an element to an array.
+
+# Example
+# Add one more element to the cars array:
+
+cars.append("Honda")
