@@ -90,3 +90,11 @@ for x in cars:
 # Add one more element to the cars array:
 
 cars.append("Honda")
+
+# Removing Array Elements
+# You can use the pop() method to remove an element from the array.
+
+# Example
+# Delete the second element of the cars array:
+
+cars.pop(1)
