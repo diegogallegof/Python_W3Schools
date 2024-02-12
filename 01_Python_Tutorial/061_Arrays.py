@@ -98,3 +98,10 @@ cars.append("Honda")
 # Delete the second element of the cars array:
 
 cars.pop(1)
+
+# You can also use the remove() method to remove an element from the array.
+
+# Example
+# Delete the element that has the value "Volvo":
+
+cars.remove("Volvo")
