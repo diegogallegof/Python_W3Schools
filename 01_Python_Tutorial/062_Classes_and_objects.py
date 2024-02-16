@@ -13,6 +13,7 @@
 # Create a class named MyClass, with a property named x:
 
 class MyClass:
+  ddd
   x = 5
 
 #   Create Object
