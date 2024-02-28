@@ -127,3 +127,11 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+
+Modify Object Properties
+You can modify properties on objects like this:
+
+Example
+Set the age of p1 to 40:
+
+p1.age = 40
