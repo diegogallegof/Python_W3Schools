@@ -128,10 +128,18 @@ class Person:
 p1 = Person("John", 36)
 p1.myfunc()
 
-Modify Object Properties
-You can modify properties on objects like this:
+# Modify Object Properties
+# You can modify properties on objects like this:
 
-Example
-Set the age of p1 to 40:
+# Example
+# Set the age of p1 to 40:
 
 p1.age = 40
+
+# Delete Object Properties
+# You can delete properties on objects by using the del keyword:
+
+# Example
+# Delete the age property from the p1 object:
+
+del p1.age
