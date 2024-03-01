@@ -143,3 +143,11 @@ p1.age = 40
 # Delete the age property from the p1 object:
 
 del p1.age
+
+# Delete Objects
+# You can delete objects by using the del keyword:
+
+# Example
+# Delete the p1 object:
+
+del p1
