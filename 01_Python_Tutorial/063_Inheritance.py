@@ -45,3 +45,17 @@ class Student(Person):
 x = Student("Mike", "Olsen")
 x.printname()
 
+# Add the __init__() Function
+# So far we have created a child class that inherits the properties and methods from its parent.
+
+# We want to add the __init__() function to the child class (instead of the pass keyword).
+
+# Note: The __init__() function is called automatically every time the class is being used to create a new object.
+
+# Example
+# Add the __init__() function to the Student class:
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    #add properties etc.
+
