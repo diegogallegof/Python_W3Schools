@@ -68,3 +68,14 @@ class Student(Person):
 class Student(Person):
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname)
+
+# Now we have successfully added the __init__() function, and kept the inheritance of the parent class, and we are ready to add functionality in the __init__() function.
+
+# Use the super() Function
+# Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
