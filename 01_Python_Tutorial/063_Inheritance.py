@@ -81,3 +81,13 @@ class Student(Person):
     super().__init__(fname, lname)
 
 # ----------------------------------------------------------------
+By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
+
+Add Properties
+Example
+Add a property called graduationyear to the Student class:
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+    self.graduationyear = 2019
