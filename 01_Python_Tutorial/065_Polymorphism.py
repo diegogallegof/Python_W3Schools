@@ -14,5 +14,11 @@ x = "Hello World!"
 
 print(len(x))
 
+# Tuple
+# For tuples len() returns the number of items in the tuple:
+# ----------------------------------------------------------------
 # Example
 # ----------------------------------------------------------------
+mytuple = ("apple", "banana", "cherry")
+
+print(len(mytuple))
