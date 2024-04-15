@@ -23,3 +23,18 @@ def greeting(name):
 import mymodule
 
 mymodule.greeting("Jonathan")
+
+# Note: When using a function from a module, use the syntax: module_name.function_name.
+
+# Variables in Module
+# The module can contain functions, as already described, but also variables of all types (arrays, dictionaries, objects etc):
+# ----------------------------------------------------------------
+# Example
+# ----------------------------------------------------------------
+# Save this code in the file mymodule.py
+
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
