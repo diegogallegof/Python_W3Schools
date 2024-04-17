@@ -38,3 +38,11 @@ person1 = {
   "age": 36,
   "country": "Norway"
 }
+
+# Example
+# Import the module named mymodule, and access the person1 dictionary:
+
+import mymodule
+
+a = mymodule.person1["age"]
+print(a)
